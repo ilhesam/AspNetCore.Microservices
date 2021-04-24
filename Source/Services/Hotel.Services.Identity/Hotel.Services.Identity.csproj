@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>90439cae-6e20-488e-865e-9b24a555d0c7</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.10.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Hotel.Common\Hotel.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Handlers\Commands\SignIn\" />
+    <Folder Include="Core\Helpers\" />
+    <Folder Include="Core\ConstantValues\" />
+    <Folder Include="Core\Options\" />
+    <Folder Include="RabbitMq\" />
+  </ItemGroup>
+
+</Project>

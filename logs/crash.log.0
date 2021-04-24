@@ -1,0 +1,18 @@
+2021-04-15 20:02:17 =SUPERVISOR REPORT====
+     Supervisor: {<0.14635.0>,rabbit_channel_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{pid,<0.14638.0>},{id,channel},{mfargs,{rabbit_channel,start_link,[1,<0.14626.0>,<0.14636.0>,<0.14626.0>,<<"172.18.0.6:40716 -> 172.18.0.3:5672">>,rabbit_framing_amqp_0_9_1,{user,<<"guest">>,[administrator],[{rabbit_auth_backend_internal,none}]},<<"/">>,[{<<"publisher_confirms">>,bool,true},{<<"exchange_exchange_bindings">>,bool,true},{<<"basic.nack">>,bool,true},{<<"consumer_cancel_notify">>,bool,true},{<<"connection.blocked">>,bool,true},{<<"authentication_failure_close">>,bool,true}],<0.14627.0>,<0.14637.0>]}},{restart_type,intrinsic},{shutdown,70000},{child_type,worker}]
+
+2021-04-16 12:59:24 =SUPERVISOR REPORT====
+     Supervisor: {<0.8756.0>,rabbit_channel_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{pid,<0.8759.0>},{id,channel},{mfargs,{rabbit_channel,start_link,[1,<0.8750.0>,<0.8757.0>,<0.8750.0>,<<"172.18.0.5:58806 -> 172.18.0.3:5672">>,rabbit_framing_amqp_0_9_1,{user,<<"guest">>,[administrator],[{rabbit_auth_backend_internal,none}]},<<"/">>,[{<<"publisher_confirms">>,bool,true},{<<"exchange_exchange_bindings">>,bool,true},{<<"basic.nack">>,bool,true},{<<"consumer_cancel_notify">>,bool,true},{<<"connection.blocked">>,bool,true},{<<"authentication_failure_close">>,bool,true}],<0.8751.0>,<0.8758.0>]}},{restart_type,intrinsic},{shutdown,70000},{child_type,worker}]
+
+2021-04-18 14:39:12 =SUPERVISOR REPORT====
+     Supervisor: {<0.4230.0>,rabbit_channel_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{pid,<0.4233.0>},{id,channel},{mfargs,{rabbit_channel,start_link,[1,<0.4224.0>,<0.4231.0>,<0.4224.0>,<<"172.18.0.5:40922 -> 172.18.0.3:5672">>,rabbit_framing_amqp_0_9_1,{user,<<"guest">>,[administrator],[{rabbit_auth_backend_internal,none}]},<<"/">>,[{<<"publisher_confirms">>,bool,true},{<<"exchange_exchange_bindings">>,bool,true},{<<"basic.nack">>,bool,true},{<<"consumer_cancel_notify">>,bool,true},{<<"connection.blocked">>,bool,true},{<<"authentication_failure_close">>,bool,true}],<0.4225.0>,<0.4232.0>]}},{restart_type,intrinsic},{shutdown,70000},{child_type,worker}]
+
